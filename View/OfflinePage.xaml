@@ -10,8 +10,14 @@
         HorizontalOptions="CenterAndExpand"
         Spacing="20"
         Padding="30">
+        <Label Text="Hello!!"
+        x:Name="MyLabel"
+        FontSize="32"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"/>
 
-    <Label 
+
+        <Label 
         Text="This site can’t be reached. Your device is not connected to the internet."
         FontSize="20"
         TextColor="{DynamicResource SecondaryColor}" 
