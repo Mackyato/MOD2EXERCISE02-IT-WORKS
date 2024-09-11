@@ -13,6 +13,7 @@
         <Label Text="Hello!!"
         x:Name="MyLabel"
         FontSize="32"
+        TextColor="#2E7D32"
         VerticalOptions="CenterAndExpand"
         HorizontalOptions="Center"/>
 

@@ -9,7 +9,7 @@ namespace Module0Exercise0
 {
     public partial class App : Application
     {
-        private const string TestUrl = "https://www.googlebdfjdskbhj.com";
+        private const string TestUrl = "https://www.google.com";
 
         private readonly IServiceProvider _serviceProvider;
         public App(IServiceProvider serviceProvider)
