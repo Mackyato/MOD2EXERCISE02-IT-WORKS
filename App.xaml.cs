@@ -34,7 +34,7 @@ namespace Module0Exercise0
             }
             else
             {
-                MainPage = new OfflinePage();
+                MainPage = _serviceProvider.GetRequiredService<OfflinePage>();
                 Debug.WriteLine("Application Started (Offline)");
             }
         }

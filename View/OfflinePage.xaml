@@ -4,35 +4,32 @@
              x:Class="Module0Exercise0.View.OfflinePage"
              Title="OfflinePage"
              BackgroundColor="{DynamicResource PrimaryColor}">
-   
+
     <VerticalStackLayout
         VerticalOptions="CenterAndExpand"
         HorizontalOptions="CenterAndExpand"
         Spacing="20"
         Padding="30">
 
-        <!-- Error Message -->
-        <Label 
-            Text="This site can’t be reached. Your device is not connected to the internet."
-            FontSize="20"
-            TextColor="{DynamicResource SecondaryColor}"
-            FontFamily="{DynamicResource PrimaryFontFamily}"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
+    <Label 
+        Text="This site can’t be reached. Your device is not connected to the internet."
+        FontSize="20"
+        TextColor="{DynamicResource SecondaryColor}" 
+        FontFamily="{DynamicResource PrimaryFontFamily}"
+        HorizontalOptions="Center"
+        VerticalOptions="Center" />
 
-        <!-- Exit Button -->
-        <Button 
-            Text="Exit"
-            FontSize="20"
-            TextColor="{DynamicResource SecondaryColor}"
-            FontFamily="{DynamicResource PrimaryFontFamily}"
-            BackgroundColor="#d32f2f"
-            CornerRadius="25"
-            HeightRequest="50"
-            WidthRequest="150"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            Clicked="OnExitButtonClicked" />
-        <!-- Handles the button click -->
+    <Button 
+        Text="Exit"
+        FontSize="20"
+        TextColor="White" 
+        BackgroundColor="#388E3C"
+        FontFamily="{DynamicResource PrimaryFontFamily}"
+        HeightRequest="50"
+        WidthRequest="150"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Clicked="OnExitButtonClicked" />
     </VerticalStackLayout>
+    
 </ContentPage>

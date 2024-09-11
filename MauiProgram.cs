@@ -18,11 +18,13 @@ namespace Module0Exercise0
                 });
 
 #if DEBUG
+            //SERVICES
             builder.Services.AddSingleton<IMyService, MyService>();
-
+            //CONTENT PAGE
             builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<OfflinePage>();
 
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
