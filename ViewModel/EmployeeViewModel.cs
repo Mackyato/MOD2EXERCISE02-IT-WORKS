@@ -21,16 +21,16 @@ namespace Module0Exercise0.ViewModel
         public EmployeeViewModel()
         {
             //Initialize a sample employee model. Coordination with Model
-            _employee = new Employee { FirstName = "Erreh", LastName = "Nyeger", Position = "Admin", Department = "CCS", IsActive = true};
+            _employee = new Employee { FirstName = "Marcos", LastName = "Highway", Position = "Admin", Department = "CCS", IsActive = true};
 
             //UI Thread Management
             LoadEmployeeDataCommand = new Command(async () => await LoadEmployeeDataAsync());
 
             Employees = new ObservableCollection<Employee>
             {
-                new Employee {FirstName="Patrick", LastName="Pistacio", Position = "President", Department = "CCS", IsActive = true},
-                new Employee {FirstName="Alyssa", LastName="Bartolomew", Position = "Vice President", Department = "CCS", IsActive = true},
-                new Employee {FirstName="Yeetza", LastName="Maisip", Position = "Treasurer", Department = "CCS", IsActive = true}
+                new Employee {FirstName="Alice", LastName="Guo", Position = "Mayor", Department = "Bamban", IsActive = true},
+                new Employee {FirstName="James", LastName="Bond", Position = "Detective", Department = "FEDS", IsActive = true},
+                new Employee {FirstName="Dutch", LastName="Mill", Position = "Program Chair", Department = "CCS", IsActive = true}
             };
 
         }
